@@ -6,7 +6,7 @@ print(f'{doodles.name} the {doodles.species} is available to pet during the {doo
 miss_fuzz = Llama("Miss Fuzz", "domestic llama", "morning", "Llama Chow" )
 
 print(miss_fuzz.feed())
-glenn = Goat('Glenn', 'nigerian', 'afternoon', 'hay')
+glenn = Goat('Glenn', 'nigerian', 'afternoon', 'hay', 30119)
 print(glenn.feed())
 
 bubbles = Fish('Bubbles', 'parana')
@@ -16,3 +16,7 @@ fuzz = miss_fuzz.name
 bites = PettingZoo('Bites', 'watch out')
 bites.add_animal(fuzz)
 print(f'{bites.description} for {bites.animals[0]} at the {bites.attraction_name} Petting Zoo')
+
+glenn.chip_number= 24672
+
+print(glenn.chip_number)
