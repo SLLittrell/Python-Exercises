@@ -1,0 +1,10 @@
+from .animals import (Cat, 
+                    Dog, 
+                    Fish, 
+                    Goat, 
+                    Horse, 
+                    Lizard, 
+                    Llama, 
+                    Pig, 
+                    Sheep, 
+                    Snake)
