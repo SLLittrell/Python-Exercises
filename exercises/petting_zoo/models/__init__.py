@@ -8,3 +8,5 @@ from .animals import (Cat,
                     Pig, 
                     Sheep, 
                     Snake)
+
+from .attractions import (PettingZoo, SnakePit, Wetland)
