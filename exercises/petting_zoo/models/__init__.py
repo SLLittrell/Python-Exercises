@@ -7,6 +7,8 @@ from .animals import (Cat,
                     Llama, 
                     Pig, 
                     Sheep, 
-                    Snake)
+                    Snake,
+                    Goose)
 
-from .attractions import (PettingZoo, SnakePit, Wetland)
+from .attractions import (PettingZoo, SnakePit, Wetland, Attraction)
+from .movements import (Swimming, Slithering, Walking)

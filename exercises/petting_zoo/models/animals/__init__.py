@@ -8,3 +8,4 @@ from .llama import Llama
 from .pig import Pig
 from .sheep import Sheep
 from .snake import Snake
+from .goose import Goose

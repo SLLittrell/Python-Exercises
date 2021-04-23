@@ -1,5 +1,5 @@
-from models import (Goat, Llama, Snake, Fish)
-from models import (PettingZoo, SnakePit, Wetland)
+from models import (Goat, Llama, Snake, Fish, Goose)
+from models import (PettingZoo, SnakePit, Wetland, Attraction)
 
 # glenn = Goat('Glenn', 'nigerian')
 # kuzco = Llama('Kuzco', 'demestic')
@@ -49,4 +49,13 @@ slytherin.add_animal(tom.name)
 
 stinky = Goat("Stinky", "domestic goat", "afternoon", "barley hay", 45678)
 
-print(f"{doodles.feed()}")
+# print(f"{doodles.feed()}")
+
+bob = Goose("Bob", "Canada goose", "watercress sandwiches", 45638)
+
+# Create an attraction
+varmint_village = PettingZoo("Varmint Village", "critters that like to dig and scurry")
+varmint_village.add_animal(bob)
+
+for animal in varmint_village.animals:
+    print(animal)

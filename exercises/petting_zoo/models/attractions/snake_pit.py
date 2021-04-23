@@ -1,11 +1,7 @@
-class SnakePit():
+from .attraction import Attraction
+class SnakePit(Attraction):
     def __init__(self, name, description):
-        self.attraction_name = name
-        self.description = description
-        self.animals = []
-
-    def add_animal(self, animal):
-        self.animals.append(animal)
+        super().__init__(name, description)
 
     @property
     def last_critter_added(self):
