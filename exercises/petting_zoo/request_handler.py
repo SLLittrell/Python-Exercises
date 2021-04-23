@@ -43,7 +43,7 @@ slytherin.add_animal(tom.name)
 # print(f'animals in {slytherin.attraction_name}:{slytherin.animals}')
 
 
-# print(slytherin.last_critter_added)
+print(slytherin.last_critter_added)
 
 # print(int(glenn.chip_number))
 
