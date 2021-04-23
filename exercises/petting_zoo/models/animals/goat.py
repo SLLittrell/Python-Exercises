@@ -1,13 +1,8 @@
 from datetime import date
+from .animals import Animal
 
-class Goat():
-    def __init__(self, name, species, shift, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Goat(Animal):
+    def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species,food, chip_num)
         self.walking = True
         self.shift = shift
-        self.food = food
-
-    def feed(self):
-        print(f'{self.name} ate {self.food} at {date.today().strftime("%m/%d/%Y")}')
